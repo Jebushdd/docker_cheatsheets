@@ -99,6 +99,7 @@ Los comandos más comunes de usar al dar nuestros primeros pasos con Docker son:
 
 #### Obtener una lista de mis imágenes
 13. docker images [-q]
+    
     Podemos usar la opción `-q` para obtener solo los ids
     
 #### Eliminar una imagen
@@ -110,5 +111,6 @@ Los comandos más comunes de usar al dar nuestros primeros pasos con Docker son:
     
 #### Eliminar todas mis imágenes
 15. docker rmi $(docker images -q)
+    
     Eliminamos todas nuestras imágenes de docker.
     
